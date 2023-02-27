@@ -16,3 +16,9 @@ df = df.apply(lambda x: x.str.lower() if x.dtype == "object" else x)
 # Write the cleaned data to a new .csv file
 # Change 'cleaned.csv' to desired filename.
 df.to_csv('cleaned.csv', index=False)
+
+
+
+
+
+
